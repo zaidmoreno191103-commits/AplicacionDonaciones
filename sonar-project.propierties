@@ -1,0 +1,15 @@
+# Clave y nombre del proyecto
+sonar.projectKey=donaciones-flask-app
+sonar.projectName=Donaciones Flask App
+sonar.projectVersion=1.0
+
+# Direccion archivos fuente
+sonar.sources=.
+sonar.exclusions=venv/**,tests/**,test_*.py
+
+# Configuración de Python
+sonar.sourceEncoding=UTF-8
+sonar.python.version=3.10
+
+# Direcicon del eporte de cobertura XML
+sonar.python.coverage.reportPaths=coverage.xml
